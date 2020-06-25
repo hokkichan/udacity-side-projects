@@ -16,9 +16,7 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-table,
-tr,
-td {
+table, tr, td {
     border: 1px solid black;
 }
 
@@ -38,3 +36,4 @@ td {
 input[type=number] {
     width: 6em;
 }
+

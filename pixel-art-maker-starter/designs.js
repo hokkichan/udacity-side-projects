@@ -1,10 +1,20 @@
-// Select color input
-// Select size input
+const $colorPicker = document.getElementById("colorPicker");
+const $sizePicker = document.getElementById("sizePicker");
+const $table = document.getElementById("pixelCanvas");
 
-// When size is submitted by the user, call makeGrid()
-
-function makeGrid() {
-
-// Your code goes here!
-
+function setGrid() {
+  event.preventDefault();
+  let width = document.getElementById("inputWidth").value;
+  let height = document.getElementById("inputHeight").value;
+  makeGrid(width, height);
 }
+
+function makeGrid(width, height) {
+  var row = $table.insertRow(-1);
+  var cell = row.insertCell(-1);
+}
+
+
+
+
+
